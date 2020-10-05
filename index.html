@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flights</title>
+</head>
+<body>
+    <header id="result-navbar">
+        <div class="search-result" id="inactive-search">
+            <img src="resources/plane-blue.png">
+            <div class="result-text">
+                <p class="ciries">NYC - REK</p>
+                <p class="dates">Apr 7 - 21</p>
+            </div>
+        </div>
+        <div class="search-result" id="active-search">
+            <img src="resources/plane.png">
+            <div class="result-text">
+                <p class="ciries">NYC - REK</p>
+                <p class="dates">Apr 7 - 21</p>
+            </div>
+        </div>
+    </header>
+    
+    <section id="search-bar">
+        <div id="search-input">
+            <div class="search-input">
+                <input type="text">
+            </div>
+            <div class="search-input">
+                <input type="text">
+            </div>
+        </div>
+        <div id="date-result">
+            <div id="left-date-result">
+                <div id="calendar">
+                    <img src="resources/calendar.png">
+                </div>
+                <div class="date-box">
+                    <p>Tue Aug 5</p>
+                </div>
+                <p id="line">-</p>
+                <div class="date-box">
+                    <p>Tue Aug 19</p>
+                </div>
+            </div>
+            <div id="right-date-result">
+                <div class="date-length">
+                    <p>15 days</p>
+                    <img src="resources/letter-x.png">
+                </div>
+                <div class="search-button">
+                    <button type="button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="plus-button">
+            <button type="button">+</button>
+        </div>
+    </section>
+
+    <section id="body-container">
+        <div id="left-bar">
+            <div id="prices">
+                <ul>
+                    <li id="item1">Price Alert</li>
+                    <li>Fare Charts</li>
+                    <li>Ariline fess</li>
+                </ul>
+                <br>
+                <div id="prices-dates">
+                    <p>Flex Dates: <span>+-3 days </span> <span class="prices-span">Explorer</span></p>
+                </div>
+            </div>
+            <hr>
+            <div id="price-trend">
+                <h4>Price Trend</h4>
+                <img id="graph" src="resources/graph.png">
+                <p class="bold-text">Advide: Wait</p>
+                <p class="bold-text">Confidence: 79%</p>
+                <div>
+                    <p class="subtle-text">Prices may fall within 7 day</p>
+                    <img id="information-icon" src="resources/information.png">
+                </div>
+            </div>
+            <hr>
+
+            <div id="stops">
+                <h4>Stops</h4>
+                <br>
+                <div class="stops-inline">
+                    <div class="stops-container">
+                        <div class="left-stops">
+                            <input type="checkbox">
+                            <p>nonstop</p>
+                        </div>
+                        <div class="right-stops">
+                            <p>$863</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stops-inline">
+                    <div class="stops-container">
+                        <div class="left-stops">
+                            <input type="checkbox">
+                            <p>1 stop</p>
+                        </div>
+                        <div class="right-stops">
+                            <p>$1000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stops-inline">
+                    <div class="stops-container">
+                        <div class="left-stops">
+                            <input type="checkbox">
+                            <p>2+ stops</p>
+                        </div>
+                        <div class="right-stops">
+                            <p>$2731</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="">Show airline/stop price matrix</a>
+            </div>
+            <hr>
+
+
+            <div id="times">
+                <h4>Times</h4><br>
+                <p><strong>Take-off New York</strong></p>
+                <p>Tue 20:00p - Wed 12:00a</p>
+                <br>
+                <div class=sliders-div>
+                    <input type="range" min="10" max="100" step="5" value="35" class="slider">
+                    <input type="range" min="10" max="100" step="5" value="25" class="slider slider2">
+                </div>
+                <br>
+                <p><strong>Take-off Miami</p>
+                <p>Tue 12:00a - Wed 2:00a</p>
+                <br>
+                <div class=sliders-div>
+                    <input type="range" min="10" max="100" step="5" value="35" class="slider">
+                    <input type="range" min="10" max="100" step="5" value="25" class="slider slider2">
+                </div>
+
+            </div>
+            <hr>
+        </div>
+
+        <div id="right-bar">
+           <div id="top-bar">
+               <div>
+                   <p>15 <span>of</span> 64 flights</p>
+                    <a href="">show all</a>
+                </div>
+                <div>
+                    <p>Sort by price (low to high)</p>
+                    <img src="resources/dropdown.png">
+                </div>
+           </div>
+           <hr>
+
+           <div id="flight-results">
+               <div class="results">
+                    <div class="flight-rate">
+                        <p>Check Rates</p><br>
+                        <div class="search-button">
+                            <button type="button">Select</button>
+                        </div>
+                    </div>
+                    <div class="flight-info">
+                        <div class="left-flight-info">
+                            <h4>Faster Flights. More Legroom. 2 Bags Free</h4>
+                            <p>Save time and money with American Airlines on your way to Miami</p>
+                            <br>
+                            <a href="">aa.com</a>
+                        </div>
+                        <div class="logo">
+                            <img src="resources/american-logo.svg">
+                            <p>American Airlines</p>
+                        </div>
+                    </div>
+               </div>
+               <hr>
+
+               <div class="results">
+                <div class="flight-rate">
+                    <p>Check Rates</p><br>
+                    <div class="search-button">
+                        <button type="button">Select</button>
+                    </div>
+                </div>
+                <div class="flight-info">
+                    <div class="left-flight-info">
+                        <h4>Faster Flights. More Legroom. 2 Bags Free</h4>
+                        <p>Save time and money with American Airlines on your way to Miami</p>
+                        <br>
+                        <a href="">aa.com</a>
+                    </div>
+                    <div class="logo">
+                        <img src="resources/american-logo.svg">
+                        <p>American Airlines</p>
+                    </div>
+                </div>
+           </div>
+           <hr>
+
+           </div>
+            
+        </div>
+    </section>
+</body>
+</html>
