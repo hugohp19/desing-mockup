@@ -81,6 +81,7 @@
     width: 250px;
     height: 35px;
     border: 1px solid lightgray;
+    padding: 0 10px;
 }
 
 #date-result{
@@ -397,6 +398,9 @@ h5{
     top: -50px;
     color: gray;
 }
+
+
+
 /**** Flight Airlines ****/
 #flight-results{
     width:100%;
@@ -575,6 +579,7 @@ td{
     border: 1px solid lightgray;
     color: gray;
     border-radius: 2px;;
+    cursor: pointer;
 }
 
 .extra-info{
