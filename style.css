@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root{
@@ -302,6 +303,7 @@ input[type='checkbox']{
 
 #stops a{
     margin-top: 125px;
+    font-size: 0.8rem;
 }
 
 
@@ -314,7 +316,7 @@ input[type='checkbox']{
 .slider2{
     position: relative;
     left: 100px;
-    top: -18px;
+    top: -19px;
 }
 
 .slider {
