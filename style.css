@@ -176,7 +176,7 @@
 #body-container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    height: 900px;
+    height: 750px;
 }
 
 #left-bar{
@@ -246,7 +246,7 @@ h4{
 }
 
 #graph{
-    width: 90%;
+    width: 210px;
 }
 
 #information-icon{
@@ -392,7 +392,11 @@ input[type='checkbox']{
     margin-left: 10px;
 }
 
-
+h5{
+    position: relative;
+    top: -50px;
+    color: gray;
+}
 /**** Flight Airlines ****/
 #flight-results{
     width:100%;
@@ -409,7 +413,7 @@ input[type='checkbox']{
 .flight-rate{
     width:20%;
     height: 100%;
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-size: 1.3rem;
     vertical-align: middle;
     border-right: 1px solid var(--backgroundSecondary);
@@ -421,6 +425,7 @@ input[type='checkbox']{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .left-flight-info{
@@ -450,4 +455,141 @@ input[type='checkbox']{
 
 .logo img{
     width: 100px;
+}
+
+
+
+
+/*******************************************
+****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+
+.results-airlines{
+    width: 100%;
+    display: flex;
+    height: 180px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.flight-rate-airlines{
+    width:20%;
+    height: 100%;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    border-right: 1px solid lightgray;
+}
+
+.source{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.flight-rate-airlines .search-button{
+    padding-top: 5px; 
+    padding-bottom: 10px; 
+}
+
+.sources-prices{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    font-size: 0.9rem;
+    padding: 2px 0;
+}
+
+#airline-logo{
+    margin: 0 10px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+
+.flight-rate-airlines img{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+}
+
+
+.flight-rate-airlines a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: blue;
+}
+
+#right-container{
+    padding: 20px;
+    width: 80%;
+}
+
+.flight-info-airlines{
+    width:80%;
+    display: flex;
+    align-items: center;
+}
+
+.left-flight-info-airlines{
+    display: flex;
+}
+
+.left-flight-info-airlines img{
+    width: 50px;
+}
+
+#arrowright{
+    width: 12px;
+    margin-right: 10px;
+}
+
+.flight-time-info h4{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.subtle-text-flight{
+    font-weight: 300;
+}
+
+td{
+    padding-right: 15px; 
+    padding-bottom: 4px;
+}
+
+.buttons-flight{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-buttons{
+    width: 80px;
+    height: 30px;
+    background-color: var(--backgroundSecondary);
+    border: 1px solid lightgray;
+    color: gray;
+    border-radius: 2px;;
+}
+
+.extra-info{
+    text-align: end;
+    font-size: 0.8rem;
+    color: lightgray;
+}
+
+.extra-info p{
+    padding-bottom: 8px;
+}
+
+#moon{
+    position: relative;
+    top: -140px;
+    right: -700px;
+    width: 20px;
 }
